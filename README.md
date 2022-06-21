@@ -19,18 +19,6 @@ We used React (v. 18.1.0) and plain CSS Modules for the styling.
 
 Live version is available [HERE](godflex)
 
-## Tech Stack
-
-- React (v. 18.1.0)
-- Typescript (v. 4.7.3)
-- CSS Modules
-
-## Tools used
-
-- React Intersection Observer (v. 9.3.3)
-- Fetch API
-- The Movie Database API
-
 ## Run project locally
 
 To run the project locally simply clone the repo and then run
@@ -49,6 +37,18 @@ C:\path\to\repo> npm start
 ```
 
 You're preferite browser should open up automatically, if it doesn't then you can access the website at [localhost:3000](http://localhost:3000).
+
+### Tech Stack
+
+- React (v. 18.1.0)
+- Typescript (v. 4.7.3)
+- CSS Modules
+
+### Tools used
+
+- React Intersection Observer (v. 9.3.3)
+- Fetch API
+- The Movie Database API
 
 ## Design choices
 
