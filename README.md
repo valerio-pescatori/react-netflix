@@ -27,7 +27,7 @@ To run the project locally simply clone the repo and then run
 C:\path\to\repo> npm install
 ```
 
-In order to make GET requests to the TMDB Api you'll need to generate your api key from [here](tmdb-api).<br>
+In order to make GET requests to the TMDB Api you'll need to generate your api key from the [TMDB Api Documentation](tmdb-api).<br>
 Once you've retrieved your api key you need to paste it in the `.env` file in the root folder.
 
 You're all set up! Simply run:
@@ -66,8 +66,8 @@ To track which movie had to be shown in those two component we created a `MovieC
 This approach avoided a very annoying prop drilling, serving its purpose efficiently.
 
 [//]: # "Reference links for the body"
-[godflex-live]: https://godflex.pages.dev
+[godflex-live]: https://godflex.pages.dev/
 [cibe]: https://github.com/xcibe95x/
 [god-davide]: https://github.com/DavideLAbbate/
 [leony]: https://github.com/LeonyMalasanManalili/
-[tmdb-api]: https://www.themoviedb.org/documentation/api
+[tmdb-api]: https://www.themoviedb.org/documentation/api/
