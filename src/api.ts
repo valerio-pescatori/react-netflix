@@ -1,4 +1,4 @@
-import { CastMember, Logo, Movie } from "./Interfaces";
+import { CastMember, Movie } from "./Interfaces";
 
 const BASE_URL = "https://api.themoviedb.org";
 export const POSTER_API = "https://image.tmdb.org/t/p/original";
