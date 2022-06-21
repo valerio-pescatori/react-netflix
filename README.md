@@ -17,7 +17,7 @@ We used React (v. 18.1.0) and plain CSS Modules for the styling.
 
 ## Live Version
 
-Live version is available [HERE](godflex)
+Live version is available [HERE](godflex-live)
 
 ## Run project locally
 
@@ -66,7 +66,7 @@ To track which movie had to be shown in those two component we created a `MovieC
 This approach avoided a very annoying prop drilling, serving its purpose efficiently.
 
 [//]: # "Reference links for the body"
-[godflex]: https://godflex.pages.dev
+[godflex-live]: https://godflex.pages.dev
 [cibe]: https://github.com/xcibe95x/
 [god-davide]: https://github.com/DavideLAbbate/
 [leony]: https://github.com/LeonyMalasanManalili/
