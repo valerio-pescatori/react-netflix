@@ -35,7 +35,7 @@ Live version is available [HERE](godflex)
 
 To run the project locally simply clone the repo and then run
 
-```bash
+```bat
 C:\path\to\repo> npm i
 ```
 
@@ -44,7 +44,7 @@ Once you've retrieved your api key you need to paste it in the `.env` file in th
 
 You're all set up! Simply run:
 
-```bash
+```bat
 C:\path\to\repo> npm start
 ```
 
