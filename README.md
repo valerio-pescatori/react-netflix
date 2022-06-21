@@ -7,17 +7,17 @@ We used React (v. 18.1.0) and plain CSS Modules for the styling.
 
 ### Team Leader
 
-- **[Mauro Leoci](cibe)**
+- **[Mauro Leoci][cibe]**
 
 ### Team members
 
-- [Valerio Pescatori](vale)
-- [Davide L'Abbate](god-davide)
-- [Leony Manalili](leony)
+- [Valerio Pescatori][vale]
+- [Davide L'Abbate][god-davide]
+- [Leony Manalili][leony]
 
 ## Live Version
 
-Live version is available [HERE](godflex-live)
+Live version is available [HERE][godflex-live]
 
 ## Run project locally
 
@@ -27,7 +27,7 @@ To run the project locally simply clone the repo and then run
 C:\path\to\repo> npm install
 ```
 
-In order to make GET requests to the TMDB Api you'll need to generate your api key from the [TMDB Api Documentation](tmdb-api).<br>
+In order to make GET requests to the TMDB Api you'll need to generate your api key from the [TMDB Api Documentation][tmdb-api].<br>
 Once you've retrieved your api key you need to paste it in the `.env` file in the root folder.
 
 You're all set up! Simply run:
