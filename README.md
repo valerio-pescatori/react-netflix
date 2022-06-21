@@ -36,7 +36,7 @@ Live version is available [HERE](godflex)
 To run the project locally simply clone the repo and then run
 
 ```bat
-C:\path\to\repo> npm i
+C:\path\to\repo> npm install
 ```
 
 In order to make GET requests to the TMDB Api you'll need to generate your api key from [here](tmdb-api).<br>
