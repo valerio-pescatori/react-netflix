@@ -34,9 +34,7 @@ export async function fetchMovieData(movieId: number): Promise<Movie> {
  * @returns Similar movies data as a `Promise`
  */
 export async function fetchSimilarMovies(movieId: number): Promise<Movie[]> {
-  let response = await fetch(
-    BASE_URL + "/3/movie/" + movieId + "/similar" + "?api_key=" + process.env.REACT_APP_API_KEY
-  );
+  let response = await fetch(BASE_URL + "/3/movie/" + movieId + "/similar?api_key=" + process.env.REACT_APP_API_KEY);
   let json = await response.json();
   return json.results;
 }
