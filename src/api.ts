@@ -14,7 +14,7 @@ export async function fetchMovieLogo(movieId: number): Promise<string> {
   );
   let imgData = await response.json();
   let path = "";
-  if (imgData.logos != undefined && imgData.logos.length > 0) path = POSTER_API + imgData.logos[0].file_path;
+  if (imgData.logos !== undefined && imgData.logos.length > 0) path = POSTER_API + imgData.logos[0].file_path;
   return path;
 }
 

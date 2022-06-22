@@ -28,7 +28,7 @@ const Dialog = () => {
       document.body.style.overflow = "unset";
       document.body.removeEventListener("click", closeDialog);
     }
-  }, [movie, showDialog]);
+  }, [movie, showDialog, closeDialog]);
 
   function closeDialog(e: MouseEvent) {
     if (ref.current && !ref.current!.firstElementChild?.contains(e.target as Node)) setShowDialog(false);
