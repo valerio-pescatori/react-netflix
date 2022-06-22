@@ -1,12 +1,6 @@
 import { MouseEvent as RMouseEvent, useContext, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import AccountIcon from "../../assetsNavbar/navigation/account-icon.svg";
-import Help from "../../assetsNavbar/navigation/assistance.svg";
-import Bell from "../../assetsNavbar/navigation/campanella.png";
-import Downicon from "../../assetsNavbar/navigation/Downicon.png";
-import Lens from "../../assetsNavbar/navigation/Lensimg.png";
-import Logo from "../../assetsNavbar/navigation/logo.png";
-import Pen from "../../assetsNavbar/navigation/pen-icon.svg";
+import Logo from "../../assets/images/logo.png";
 import { UserContext } from "../../Interfaces";
 import styles from "./Navbar.module.css";
 
@@ -46,7 +40,7 @@ export const Navbar = () => {
             {/* List Hide */}
             <div className={styles.HideButton}>
               <span onClick={(e) => toggleDropdown(e, dropDownMobile.current!)}>Browse</span>
-              <img src={Downicon} alt="downIcon" onClick={(e) => toggleDropdown(e, dropDownMobile.current!)} />
+              <i className="fa-solid fa-caret-down fa-lg" onClick={(e) => toggleDropdown(e, dropDownMobile.current!)} />
             </div>
             {/* List 1 */}
             <ul className={styles.dropDownList} ref={dropDownMobile}>
@@ -70,17 +64,13 @@ export const Navbar = () => {
           {/* List 2 */}
           <ul className={styles.list}>
             <li className={styles.listHide}>
-              <span>
-                <img src={Lens} alt="imgLens" />
-              </span>
+              <i className="far fa-magnifying-glass"></i>
             </li>
             <li className={styles.listHide}>
               <span className="GodName">{loggedUser.name}</span>
             </li>
             <li className={styles.listHide}>
-              <span>
-                <img src={Bell} alt="imgBell" />
-              </span>
+              <i className="fas fa-bell"></i>
             </li>
             <li onClick={(e) => toggleDropdown(e, dropDown.current!)}>
               <span>
@@ -92,7 +82,7 @@ export const Navbar = () => {
               </span>
             </li>
             <li className={styles.liContainer} onClick={(e) => toggleDropdown(e, dropDown.current!)}>
-              <img src={Downicon} alt="imgDropdown" />
+              <i className="fas fa-caret-down fa-lg" onClick={(e) => toggleDropdown(e, dropDown.current!)} />
               {/* dropdown ul */}
               <ul className={styles.dropDown} ref={dropDown}>
                 {otherUsers.map((el, i) => (
@@ -102,16 +92,16 @@ export const Navbar = () => {
                   </li>
                 ))}
                 <li className={styles.liDropdown}>
-                  <img src={Pen} alt="imgPen" />
+                  <i className="fa-solid fa-pen-to-square fa-xl"></i>
                   <span>Manage profiles</span>
                 </li>
                 <hr />
                 <li className={styles.liDropdown}>
-                  <img src={AccountIcon} alt="imgAI" />
+                  <i className="fa-regular fa-user fa-xl"></i>
                   <span>Account</span>
                 </li>
                 <li className={styles.liDropdown}>
-                  <img src={Help} alt="imgHelp" />
+                  <i className="fa-solid fa-question fa-xl"></i>
                   <span>Service Center</span>
                 </li>
                 <hr />

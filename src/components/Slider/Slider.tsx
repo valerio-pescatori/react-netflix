@@ -26,10 +26,7 @@ export const Slider = forwardRef<HTMLDivElement, SliderSection>((attribute, ref)
   }
 
   useEffect(() => {
-    if (attribute.isVisible) {
-      console.log(attribute.sectionTitle);
-      fetchMovies(attribute.pageIndex).then((res) => setMovies(res));
-    }
+    if (attribute.isVisible) fetchMovies(attribute.pageIndex).then((res) => setMovies(res));
   }, [attribute.isVisible]);
 
   /**
