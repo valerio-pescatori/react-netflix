@@ -67,7 +67,7 @@ This approach avoided a very annoying prop drilling, serving its purpose efficie
 
 [//]: # "Reference links for the body"
 [vale]: https://github.com/valerio-pescatori/
-[godflex-live]: https://valerio-pescatori.github.io/react-netflix/
+[godflex-live]: https://react-godflex.netlify.app
 [cibe]: https://github.com/xcibe95x/
 [god-davide]: https://github.com/DavideLAbbate/
 [leony]: https://github.com/LeonyMalasanManalili/
